@@ -1,0 +1,15 @@
+行内元素与块状元素的区别？
+    块状元素独占一行，默认情况下，宽度自动填满父元素宽度  
+    行内元素默认不分行  
+    行内元素宽高不能由css决定，而是由内容决定的  
+    行内元素的margin和padding的垂直方向上不产生边距效果  
+    可以使用display:block;或display:inline;实现块级元素和行内元素的相互转换  
+css中选择器有哪些？他们的优先级？
+    通配<元素<类，属性，伪类<id<!important 通配<!important 通配<!important 元素<!important 类，属性，伪类<!important id
+清除元素浮动：
+    1. .clear{clear: both;}    ...<div class=:"clear"></div>
+    2. .clear{zoom: 1;}    .clear:after{clear: both; content:""; display: block; width: 0; height: 0; visibility: hidden;}
+    3. .clear{overflow: auto; zoom: 1;}
+MIME: 多部分互联网邮件扩展
+终止块：块状元素，子元素只能包含文本，不能包含其他元素
+多功能块：子元素可以是文本或其他块中的一个，不能同时包含文本和其他块
